@@ -13,7 +13,7 @@ start_txt = """**
  
 ❉ ᴧɢᴧʀ ʀᴇᴘᴏ ᴄʜᴧʜɪʏᴇ ᴛᴏ ʙʜᴧɪ ʀᴇᴘᴏ ᴘᴧɪᴅ ᴍɪʟ ᴊᴀʏᴇɢᴧ
 
-✼ || [ㅤㅤ- к ᴧ ʀ м ᴧ › ᴏᴘ ⇢](https://t.me/Swagger_Soul) ||
+✼ || ᴄᴏɴᴛᴧᴄᴛ : [ㅤㅤ- к ᴧ ʀ м ᴧ › ᴏᴘ ⇢](https://t.me/Swagger_Soul) ||
  
 ❊ ʀᴜɴ 24x7 ʟᴧɢ ϝʀᴇᴇ ᴡɪᴛʜᴏᴜᴛ sᴛᴏᴘ**
 """
@@ -25,7 +25,7 @@ start_txt = """**
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("✙ ᴧᴅᴅ ᴍᴇ вᴧʙʏ ✙", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+          InlineKeyboardButton("⊚ ᴧᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴧᴛ ⊚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
           InlineKeyboardButton("⌯ ᴜᴘᴅᴧᴛᴇ ⌯", url="https://t.me/AarumiBots"),
