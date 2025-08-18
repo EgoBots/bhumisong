@@ -11,7 +11,7 @@ from typing import Union, Optional
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Jio_savan_music_bot?startgroup=true"),
+        InlineKeyboardButton(text="⊚ ᴧᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴧᴛ ⊚", url=f"https://t.me/AarumiSongBot?startgroup=true"),
     ],
 ]
 
@@ -63,17 +63,17 @@ font_path = "SONALI_MUSIC/assets/hiroko.ttf"
 
 
 INFO_TEXT = """
-ㅤ◦•●◉✿ ᴜsᴇʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ  ✿◉●•◦
+ㅤ◦•●◉✿ ᴜsᴇʀ ɪɴғᴏʀᴍᴧᴛɪᴏɴ  ✿◉●•◦
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 
 ❍ ᴜsᴇʀ ɪᴅ ɴᴏ. ▷ `{}`
-❍ ᴜsᴇʀɴᴇᴍᴇ ▷ @{} 
+❍ ᴜsᴇʀɴᴧᴍᴇ ▷ @{} 
 ❍ ᴍᴇɴᴛɪᴏɴ ▷ {}
-❍ sᴛᴀᴛᴜs ▷ `{}`
+❍ sᴛᴧᴛᴜs ▷ `{}`
 ❍ ᴅᴄ ɪᴅ ▷ {}
 ❍ ʙɪᴏ ▷ {}
 
-❖ ᴍᴀᴅᴇ ʙʏ  ➛ [ᴋʀɪᴛɪ-ʙᴏᴛs](https://t.me/KRITI_UPDATE)
+❖ ᴍᴧᴅᴇ ʙʏ  ➛ [˹ᴧᴧʀᴜᴍɪ ꭙ ʙᴏᴛѕ˼ 💞](https://t.me/AarumiBots)
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 
 """
