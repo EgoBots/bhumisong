@@ -52,14 +52,14 @@ async def _whisper(_, inline_query):
                     title="💒 ᴡʜɪsᴘᴇʀ 💒",
                     description=f"sᴇɴᴅ ᴀ ᴡʜɪsᴘᴇʀ ᴛᴏ{user.first_name}!",
                     input_message_content=InputTextMessageContent(f"💒 ʏᴏᴜ ᴀʀᴇ sᴇɴᴅɪɴɢ ᴀ ᴡʜɪsᴘᴇʀ{user.first_name}. 🏩\n\nᴛʏᴘᴇ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ/sᴇɴᴛᴇɴᴄᴇ.😆"),
-                    thumb_url="https://files.catbox.moe/ynsu0c.jpg",
+                    thumb_url="https://files.catbox.moe/5qxlit.jpg",
                     reply_markup=whisper_btn
                 ),
                 InlineQueryResultArticle(
                     title="🔩 ᴏɴᴇ-ᴛɪᴍᴇ ᴡʜɪsᴘᴇʀ",
                     description=f"sᴇɴᴅ ᴀ ᴏɴᴇ-ᴛɪᴍᴇ ᴡʜɪsᴘᴇʀ ᴛᴏ {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"🔩 ʏᴏᴜ ᴀʀᴇ sᴇɴᴅɪɴɢ ᴀ ᴏɴᴇ ᴛɪᴍᴇ ᴡʜɪsᴘᴇʀ ᴛᴏ {user.first_name}. 🏩\n\nᴛʏᴘᴇ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ/sᴇɴᴛᴇɴᴄᴇ.😆"),
-                    thumb_url="https://files.catbox.moe/ynsu0c.jpg",
+                    thumb_url="https://files.catbox.moe/5qxlit.jpg",
                     reply_markup=one_time_whisper_btn
                 )
             ]
@@ -112,7 +112,7 @@ async def in_help():
             title="💒 ᴡʜɪsᴘᴇʀ 💒",
             description=f"@Sonali_Music_Bot [USERNAME / ID] [ YOUR TEXT]",
             input_message_content=InputTextMessageContent(f"**📍ᴜsᴀɢᴇ:**\n\n@Annusongbot (Target Username or ID) (Your Message).\n\n**Example:**\n@Annusongbot @ll_YOU_NOW_BADNAM_ll I love You 😘"),
-            thumb_url="https://files.catbox.moe/ynsu0c.jpg",
+            thumb_url="https://files.catbox.moe/5qxlit.jpg",
             reply_markup=switch_btn
         )
     ]
