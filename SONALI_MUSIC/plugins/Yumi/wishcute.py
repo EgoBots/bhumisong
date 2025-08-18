@@ -4,12 +4,12 @@ import random
 import requests
 from SONALI_MUSIC import app 
 
-SUPPORT_CHAT = "TEAM_BADNAM_BOTS"
+SUPPORT_CHAT = "TEAM_AARUMI_BOTS"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
     if len(m.command) < 2:
-        await m.reply("ᴀᴅᴅ ᴡɪꜱʜ ʙᴀʙʏ🥀!")
+        await m.reply("ᴧᴅᴅ ᴡɪꜱʜ ʙᴧʙʏ🥀!")
         return 
 
     api = requests.get("https://nekos.best/api/v2/happy").json()
@@ -29,7 +29,7 @@ async def wish(_, m):
     )
             
     
-BUTTON = [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]]
+BUTTON = [[InlineKeyboardButton("⌯ sᴜᴘᴘᴏʀᴛ ⌯", url=f"https://t.me/{SUPPORT_CHAT}")]]
 CUTIE = "https://64.media.tumblr.com/d701f53eb5681e87a957a547980371d2/tumblr_nbjmdrQyje1qa94xto1_500.gif"
 
 @app.on_message(filters.command("cute"))
@@ -43,7 +43,7 @@ async def cute(_, message):
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    CUTE = f"🍑 {mention} {mm}% ᴄᴜᴛᴇ ʙᴀʙʏ🥀"
+    CUTE = f"🍑 {mention} {mm}% ᴄᴜᴛᴇ ʙᴧʙʏ🥀"
 
     await app.send_document(
         chat_id=message.chat.id,
@@ -54,10 +54,10 @@ async def cute(_, message):
     )
     
 help_text = """
-» ᴡʜᴀᴛ ɪꜱ ᴛʜɪꜱ (ᴡɪꜱʜ):
-ʏᴏᴜ ʜᴀᴠɪɴɢ ᴀɴʏ ᴋɪɴᴅ ᴏꜰ 
-(ᴡɪꜱʜᴇꜱ) ʏᴏᴜ ᴄᴀɴ ᴜꜱɪɴɢ ᴛʜɪꜱ ʙᴏᴛ ᴛᴏ ʜᴏᴡ ᴘᴏꜱꜱɪʙʟᴇ ᴛᴏ ʏᴏᴜʀ ᴡɪꜱʜ!
-ᴇxᴀᴍᴘʟᴇ:» /wish : ɪ ᴡᴀɴᴛ ᴄʟᴀꜱꜱ ᴛᴏᴘᴘᴇʀ 
-» /wish : ɪ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ɪᴘʜᴏɴᴇ 
-» /cute : ʜᴏᴡ ᴍᴜᴄʜ ɪ ᴀᴍ ᴄᴜᴛᴇ 
+» ᴡʜᴧᴛ ɪꜱ ᴛʜɪꜱ (ᴡɪꜱʜ):
+ʏᴏᴜ ʜᴧᴠɪɴɢ ᴧɴʏ ᴋɪɴᴅ ᴏꜰ 
+(ᴡɪꜱʜᴇꜱ) ʏᴏᴜ ᴄᴧɴ ᴜꜱɪɴɢ ᴛʜɪꜱ ʙᴏᴛ ᴛᴏ ʜᴏᴡ ᴘᴏꜱꜱɪʙʟᴇ ᴛᴏ ʏᴏᴜʀ ᴡɪꜱʜ!
+ᴇxᴀᴍᴘʟᴇ:» /wish : ɪ ᴡᴧɴᴛ ᴄʟᴧꜱꜱ ᴛᴏᴘᴘᴇʀ 
+» /wish : ɪ ᴡᴀɴᴛ ᴧ ɴᴇᴡ ɪᴘʜᴏɴᴇ 
+» /cute : ʜᴏᴡ ᴍᴜᴄʜ ɪ ᴧᴍ ᴄᴜᴛᴇ 
 """
