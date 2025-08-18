@@ -37,13 +37,13 @@ async def instatus(app, message):
         timelog = "{:.2f}".format(end_time - start_time)
         await sent_message.edit(f"""
 **➖➖➖➖➖➖➖
-➲ Nᴀᴍᴇ : {message.chat.title} ✅
-➲ Mᴇᴍʙᴇʀ : [ {count} ]🫂
+➲ ɴᴀᴍᴇ : {message.chat.title} ✅
+➲ ᴍᴇᴍʙᴇʀ : [ {count} ]🫂
 ➖➖➖➖➖➖➖
-➲ Bᴏᴛs : {bot}💡
-➲ ZOMBIES : {deleted_acc}🧟
-➲ 𝐁ᴀɴɴᴇᴅ : {banned}🚫
-➲ PREMIUM USERS : {premium_acc}🎁
+➲ ʙᴏᴛs : {bot}💡
+➲ ᴢᴏᴍʙɪᴇs : {deleted_acc}🧟
+➲ ʙᴀɴɴᴇᴅ : {banned}🚫
+➲ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀs : {premium_acc}🎁
 ➖➖➖➖➖➖➖
 TIME TAKEN : {timelog} S**""")
     else:
