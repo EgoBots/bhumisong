@@ -8,33 +8,33 @@ class BUTTONS(object):
     BBUTTON = [
         [
             InlineKeyboardButton("ᴄʜᴧᴛ-ɢᴘᴛ", callback_data="TOOL_BACK HELP_01"),
-            InlineKeyboardButton("ᴧᴄᴛɪση", callback_data="TOOL_BACK HELP_14"),
-            InlineKeyboardButton("ᴄσᴜᴘʟєs", callback_data="TOOL_BACK HELP_08"),
+            InlineKeyboardButton("ᴧᴄᴛɪᴏɴ", callback_data="TOOL_BACK HELP_14"),
+            InlineKeyboardButton("ᴄᴏᴜᴘʟᴇs", callback_data="TOOL_BACK HELP_08"),
         ],
         [
-            InlineKeyboardButton("sєᴧʀᴄʜ", callback_data="TOOL_BACK HELP_02"),
-            InlineKeyboardButton("ᴛʀᴧηsʟᴧᴛє", callback_data="TOOL_BACK HELP_24"),
-            InlineKeyboardButton("ɪηғσ", callback_data="TOOL_BACK HELP_04"),
+            InlineKeyboardButton("sᴇᴧʀᴄʜ", callback_data="TOOL_BACK HELP_02"),
+            InlineKeyboardButton("ᴛʀᴧɴsʟᴧᴛᴇ", callback_data="TOOL_BACK HELP_24"),
+            InlineKeyboardButton("ɪɴꜰᴏ", callback_data="TOOL_BACK HELP_04"),
         ],
         [
-            InlineKeyboardButton("ғσηᴛ", callback_data="TOOL_BACK HELP_05"),
-            InlineKeyboardButton("ᴡʜɪsᴘєʀ", callback_data="TOOL_BACK HELP_03"),
+            InlineKeyboardButton("ꜰᴏɴᴛ", callback_data="TOOL_BACK HELP_05"),
+            InlineKeyboardButton("ᴡʜɪsᴘᴇʀ", callback_data="TOOL_BACK HELP_03"),
             InlineKeyboardButton("ᴛᴧɢᴧʟʟ", callback_data="TOOL_BACK HELP_07"),
         ],
         [
-            InlineKeyboardButton("ғυη", callback_data="TOOL_BACK HELP_11"),
-            InlineKeyboardButton("ǫυσᴛʟʏ", callback_data="TOOL_BACK HELP_12"),
-            InlineKeyboardButton("Ⓣ-ɢʀᴧᴘʜ", callback_data="TOOL_BACK HELP_26"),
+            InlineKeyboardButton("ꜰυɴ", callback_data="TOOL_BACK HELP_11"),
+            InlineKeyboardButton("ǫυᴏᴛʟʏ", callback_data="TOOL_BACK HELP_12"),
+            InlineKeyboardButton("ᴄᴧᴛʙᴏx", callback_data="TOOL_BACK HELP_26"),
         ],
         [
-            InlineKeyboardButton("ɢᴧϻє", callback_data="TOOL_BACK HELP_21"),
-            InlineKeyboardButton("sєᴛᴜᴘ", callback_data="TOOL_BACK HELP_17"),
-            InlineKeyboardButton("sᴧηɢϻᴧᴛᴧ", callback_data="TOOL_BACK HELP_23"),
+            InlineKeyboardButton("ɢᴧᴍᴇ", callback_data="TOOL_BACK HELP_21"),
+            InlineKeyboardButton("sᴇᴛᴜᴘ", callback_data="TOOL_BACK HELP_17"),
+            InlineKeyboardButton("sᴧɴɢᴍᴧᴛᴧ", callback_data="TOOL_BACK HELP_23"),
         ],
         [
             InlineKeyboardButton("ɢɪᴛʜᴜʙ", callback_data="TOOL_BACK HELP_25"),
             InlineKeyboardButton("⌯ ʙᴧᴄᴋ ⌯", callback_data=f"MAIN_CP"),
-            InlineKeyboardButton("sᴛɪᴄᴋєʀs", callback_data="TOOL_BACK HELP_10"),
+            InlineKeyboardButton("sᴛɪᴄᴋᴇʀs", callback_data="TOOL_BACK HELP_10"),
         ]
     ]
 
@@ -48,23 +48,23 @@ class BUTTONS(object):
             InlineKeyboardButton("ᴧɪ | ᴄʜᴧᴛɢᴘᴛ", callback_data="TOOL_BACK HELP_01"),
         ],
         [
-            InlineKeyboardButton("sєᴧʀᴄʜ", callback_data="TOOL_BACK HELP_02"),
+            InlineKeyboardButton("sᴇᴧʀᴄʜ", callback_data="TOOL_BACK HELP_02"),
             InlineKeyboardButton("ᴛᴛs", callback_data="TOOL_BACK HELP_03"),
-            InlineKeyboardButton("ɪηғσ", callback_data="TOOL_BACK HELP_04"),
+            InlineKeyboardButton("ɪɴꜰᴏ", callback_data="TOOL_BACK HELP_04"),
         ],
         [
-            InlineKeyboardButton("ғσηᴛ", callback_data="TOOL_BACK HELP_05"),
-            InlineKeyboardButton("ϻᴧᴛʜ", callback_data="TOOL_BACK HELP_06"),
+            InlineKeyboardButton("ꜰᴏɴᴛ", callback_data="TOOL_BACK HELP_05"),
+            InlineKeyboardButton("ᴍᴧᴛʜ", callback_data="TOOL_BACK HELP_06"),
             InlineKeyboardButton("ᴛᴧɢᴧʟʟ", callback_data="TOOL_BACK HELP_07"),
         ],
         [
-            InlineKeyboardButton("ɪϻᴧɢє", callback_data="TOOL_BACK HELP_08"),
+            InlineKeyboardButton("ɪᴍᴧɢᴇ", callback_data="TOOL_BACK HELP_08"),
             InlineKeyboardButton("ʜᴧsᴛᴧɢ", callback_data="TOOL_BACK HELP_09"),
-            InlineKeyboardButton("sᴛɪᴄᴋєʀs", callback_data="TOOL_BACK HELP_10"),
+            InlineKeyboardButton("sᴛɪᴄᴋᴇʀs", callback_data="TOOL_BACK HELP_10"),
         ],
         [
-            InlineKeyboardButton("ғυη", callback_data="TOOL_BACK HELP_11"),
-            InlineKeyboardButton("ǫυσᴛʟʏ", callback_data="TOOL_BACK HELP_12"),
+            InlineKeyboardButton("ꜰυɴ", callback_data="TOOL_BACK HELP_11"),
+            InlineKeyboardButton("ǫυᴏᴛʟʏ", callback_data="TOOL_BACK HELP_12"),
             InlineKeyboardButton("ᴛ-ᴅ", callback_data="TOOL_BACK HELP_13"),
         ],
         [   
@@ -73,22 +73,22 @@ class BUTTONS(object):
     
     MBUTTON = [
                 [
-            InlineKeyboardButton("єxᴛʀᴧ", callback_data="MANAGEMENT_BACK HELP_25"),
+            InlineKeyboardButton("ᴇxᴛʀᴧ", callback_data="MANAGEMENT_BACK HELP_25"),
         ],
         [
-            InlineKeyboardButton("ʙᴧη", callback_data="MANAGEMENT_BACK HELP_14"),
+            InlineKeyboardButton("ʙᴧɴ", callback_data="MANAGEMENT_BACK HELP_14"),
             InlineKeyboardButton("ᴋɪᴄᴋ", callback_data="MANAGEMENT_BACK HELP_15"),
-            InlineKeyboardButton("ϻυᴛє", callback_data="MANAGEMENT_BACK HELP_16"),
+            InlineKeyboardButton("ᴍυᴛᴇ", callback_data="MANAGEMENT_BACK HELP_16"),
         ],
         [
-            InlineKeyboardButton("ᴘɪη", callback_data="MANAGEMENT_BACK HELP_17"),
-            InlineKeyboardButton("sᴛᴧғғ", callback_data="MANAGEMENT_BACK HELP_18"),
-            InlineKeyboardButton("sєᴛ-υᴘ", callback_data="MANAGEMENT_BACK HELP_19"),
+            InlineKeyboardButton("ᴘɪɴ", callback_data="MANAGEMENT_BACK HELP_17"),
+            InlineKeyboardButton("sᴛᴧꜰꜰ", callback_data="MANAGEMENT_BACK HELP_18"),
+            InlineKeyboardButton("sᴇᴛ-υᴘ", callback_data="MANAGEMENT_BACK HELP_19"),
         ],
         [
-            InlineKeyboardButton("ᴢσϻʙɪє", callback_data="MANAGEMENT_BACK HELP_20"),
-            InlineKeyboardButton("ɢᴧϻє", callback_data="MANAGEMENT_BACK HELP_21"),
-            InlineKeyboardButton("ɪϻᴘσsᴛєʀ", callback_data="MANAGEMENT_BACK HELP_22"),
+            InlineKeyboardButton("ᴢᴏᴍʙɪᴇ", callback_data="MANAGEMENT_BACK HELP_20"),
+            InlineKeyboardButton("ɢᴧᴍᴇ", callback_data="MANAGEMENT_BACK HELP_21"),
+            InlineKeyboardButton("ɪᴍᴘᴏsᴛᴇʀ", callback_data="MANAGEMENT_BACK HELP_22"),
         ],
         [
             InlineKeyboardButton("sɢ", callback_data="MANAGEMENT_BACK HELP_23"),
@@ -101,7 +101,7 @@ class BUTTONS(object):
         ]
     PBUTTON = [
         [
-            InlineKeyboardButton("˹ ᴄσηᴛᴧᴄᴛ ˼", url="https://t.me/Swagger_Soul")
+            InlineKeyboardButton("˹ ᴄᴏɴᴛᴧᴄᴛ ˼", url="https://t.me/Swagger_Soul")
         ],
         [
             InlineKeyboardButton("⌯ ʙᴧᴄᴋ ⌯", callback_data="MAIN_CP"),
@@ -111,8 +111,8 @@ class BUTTONS(object):
     
     ABUTTON = [
         [
-            InlineKeyboardButton("˹ sυᴘᴘσʀᴛ ˼", url="https://t.me/AarumiChat"),
-            InlineKeyboardButton("˹ υᴘᴅᴧᴛєs ˼", url="https://t.me/AarumiBots"),
+            InlineKeyboardButton("˹ sυᴘᴘᴏʀᴛ ˼", url="https://t.me/AarumiChat"),
+            InlineKeyboardButton("˹ υᴘᴅᴧᴛᴇs ˼", url="https://t.me/AarumiBots"),
         ],
         [
             InlineKeyboardButton("⌯ ʙᴧᴄᴋ ⌯", callback_data="settingsback_helper"),
@@ -122,15 +122,15 @@ class BUTTONS(object):
     
     SBUTTON = [
         [
-            InlineKeyboardButton("ϻᴜѕɪᴄ", callback_data="settings_back_helper"),
-            InlineKeyboardButton("ϻᴧηᴧɢєϻєηᴛ", callback_data="TOOL_CP"),
+            InlineKeyboardButton("ᴍᴜѕɪᴄ", callback_data="settings_back_helper"),
+            InlineKeyboardButton("ᴍᴧɴᴧɢᴇᴍᴇɴᴛ", callback_data="TOOL_CP"),
         ],
         [
             InlineKeyboardButton("ᴧʟʟ ʙσᴛ's", callback_data="MAIN_BACK HELP_ABOUT"),
-            InlineKeyboardButton("ᴘʀσϻσᴛɪση", callback_data="PROMOTION_CP"),
+            InlineKeyboardButton("ᴘʀᴏᴍᴏᴛɪᴏɴ", callback_data="PROMOTION_CP"),
         ],
         [
-            InlineKeyboardButton("⌯ ʙᴧᴄᴋ ᴛσ ʜσϻє ⌯", callback_data="settingsback_helper"),
+            InlineKeyboardButton("⌯ ʙᴧᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⌯", callback_data="settingsback_helper"),
             
         ]
         ]
