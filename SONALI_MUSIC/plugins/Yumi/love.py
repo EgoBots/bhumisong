@@ -7,27 +7,27 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 def get_random_message(love_percentage):
     if love_percentage <= 30:
         return random.choice([
-            "❍ ʟᴏᴠᴇ ɪs ɪɴ ᴛʜᴇ ᴀɪʀ ʙᴜᴛ ɴᴇᴇᴅs ᴀ ʟɪᴛᴛʟᴇ sᴘᴀʀᴋ.",
-            "❍ ᴀ ɢᴏᴏᴅ sᴛᴀʀᴛ ʙᴜᴛ ᴛʜᴇʀᴇ's ʀᴏᴏᴍ ᴛᴏ ɢʀᴏᴡ.",
-            "❍ ɪᴛ's ᴊᴜsᴛ ᴛʜᴇ ʙᴇɢɪɴɴɪɴɢ ᴏғ sᴏᴍᴇᴛʜɪɴɢ ʙᴇᴀᴜᴛɪғᴜʟ."
+            "❍ ʟᴏᴠᴇ ɪs ɪɴ ᴛʜᴇ ᴧɪʀ ʙᴜᴛ ɴᴇᴇᴅs to ᴧ ʟɪᴛᴛʟᴇ sᴘᴧʀᴋ.",
+            "❍ ᴧ ɢᴏᴏᴅ sᴛᴧʀᴛ ʙᴜᴛ ᴛʜᴇʀᴇ's ʀᴏᴏᴍ ᴛᴏ ɢʀᴏᴡ.",
+            "❍ ɪᴛ's ᴊᴜsᴛ ᴛʜᴇ ʙᴇɢɪɴɴɪɴɢ ᴏғ sᴏᴍᴇᴛʜɪɴɢ ʙᴇᴧᴜᴛɪғᴜʟ."
         ])
     elif love_percentage <= 70:
         return random.choice([
-            "❍ ᴀ sᴛʀᴏɴɢ ᴄᴏɴɴᴇᴄᴛɪᴏɴ ɪs ᴛʜᴇʀᴇ. ᴋᴇᴇᴘ ɴᴜʀᴛᴜʀɪɴɢ ɪᴛ.",
-            "❍ ʏᴏᴜ'ʜᴠ ɢᴏᴛ ᴀ ɢᴏᴏᴅ ᴄʜᴀɴᴄᴇ. ᴡᴏʀᴋ ᴏɴ ɪᴛ.",
+            "❍ ᴧ sᴛʀᴏɴɢ ᴄᴏɴɴᴇᴄᴛɪᴏɴ ɪs ᴛʜᴇʀᴇ. ᴋᴇᴇᴘ ɴᴜʀᴛᴜʀɪɴɢ ɪᴛ.",
+            "❍ ʏᴏᴜ'ʜᴠ ɢᴏᴛ ᴧ ɢᴏᴏᴅ ᴄʜᴧɴᴄᴇ. ᴡᴏʀᴋ ᴏɴ ɪᴛ.",
             "❍ ʟᴏᴠᴇ ɪs ʙʟᴏssᴏᴍɪɴɢ, ᴋᴇᴇᴘ ɢᴏɪɴɢ."
         ])
     else:
         return random.choice([
-            "❍ ᴡᴏᴡ ! ɪᴛ's ᴀ ᴍᴀᴛᴄʜ ᴍᴀᴅᴇ ɪɴ ʜᴇᴀᴠᴇɴ!",
-            "❍ ᴘᴇʀғᴇᴄᴛ ᴍᴀᴛᴄʜ ! ᴄʜᴇʀɪsʜ ᴛʜɪs ʙᴏɴᴅ.",
-            "❍ ᴅᴇsᴛɪɴᴇᴅ ᴛᴏ ʙᴇ ᴛᴏɢᴇᴛʜᴇʀ. ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴs!"
+            "❍ ᴡᴏᴡ ! ɪᴛ's ᴧ ᴍᴧᴛᴄʜ ᴍᴧᴅᴇ ɪɴ ʜᴇᴧᴠᴇɴ!",
+            "❍ ᴘᴇʀғᴇᴄᴛ ᴍᴧᴛᴄʜ ! ᴄʜᴇʀɪsʜ ᴛʜɪs ʙᴏɴᴅ.",
+            "❍ ᴅᴇsᴛɪɴᴇᴅ ᴛᴏ ʙᴇ ᴛᴏɢᴇᴛʜᴇʀ. ᴄᴏɴɢʀᴧᴛᴜʟᴧᴛɪᴏɴs!"
         ])
 
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url="https://t.me/Annusongbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴧᴅᴅ ᴍᴇ ʙᴧʙʏ", url="https://t.me/AarumiSongBot?startgroup=true"),
     ],
 ]
 
@@ -54,7 +54,7 @@ async def love_command(client, message):
     else:
         await client.send_message(
             message.chat.id,
-            "❍ ᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴛᴡᴏ ɴᴀᴍᴇs ᴀғᴛᴇʀ /love ᴄᴏᴍᴍᴀɴᴅ.",
+            "❍ ᴘʟᴇᴧsᴇ ᴇɴᴛᴇʀ ᴛᴡᴏ ɴᴧᴍᴇs ᴀғᴛᴇʀ /love ᴄᴏᴍᴍᴧɴᴅ.",
             reply_markup=InlineKeyboardMarkup(EVAA),
         )
             
