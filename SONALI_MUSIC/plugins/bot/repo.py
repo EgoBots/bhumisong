@@ -25,7 +25,7 @@ start_txt = """**
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("⊚  ᴧᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴧᴛ  ⊚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+          InlineKeyboardButton("⊚  ᴧᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴧᴛ  ⊚", url=f"https://t.me/QayamatMusicBot?startgroup=true")
         ],
         [
           InlineKeyboardButton("⌯ ᴜᴘᴅᴧᴛᴇ ⌯", url="https://t.me/AarumiBots"),
