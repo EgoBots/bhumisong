@@ -22,10 +22,10 @@ def ReplyCheck(message: Message):
 infotext = (
     "[{full_name}](tg://user?id={user_id})\n\n"
     " ➻ ᴜsᴇʀ ɪᴅ: `{user_id}`\n"
-    " ➻ ғɪʀsᴛ ɴᴀᴍᴇ: `{first_name}`\n"
-    " ➻ ʟᴀsᴛ ɴᴀᴍᴇ: `{last_name}`\n"
-    " ➻ ᴜsᴇʀɴᴀᴍᴇ: `@{username}`\n"
-    " ➻ ʟᴀsᴛ sᴇᴇɴ: `{last_online}`"
+    " ➻ ꜰɪʀsᴛ ɴᴧᴍᴇ: `{first_name}`\n"
+    " ➻ ʟᴧsᴛ ɴᴧᴍᴇ: `{last_name}`\n"
+    " ➻ ᴜsᴇʀɴᴧᴍᴇ: `@{username}`\n"
+    " ➻ ʟᴧsᴛ sᴇᴇɴ: `{last_online}`"
 )
 
 
@@ -35,11 +35,11 @@ def LastOnline(user: User):
     elif user.status == "recently":
         return "ʀᴇᴄᴇɴᴛʟʏ"
     elif user.status == "within_week":
-        return "ᴡɪᴛʜɪɴ ᴛʜᴇ ʟᴀsᴛ ᴡᴇᴇᴋ"
+        return "ᴡɪᴛʜɪɴ ᴛʜᴇ ʟᴧsᴛ ᴡᴇᴇᴋ"
     elif user.status == "within_month":
-        return "ᴡɪᴛʜɪɴ ᴛʜᴇ ʟᴀsᴛ ᴍᴏɴᴛʜ"
+        return "ᴡɪᴛʜɪɴ ᴛʜᴇ ʟᴧsᴛ ᴍᴏɴᴛʜ"
     elif user.status == "long_time_ago":
-        return "ᴀ ʟᴏɴɢ ᴛɪᴍᴇ ᴀɢᴏ :("
+        return "ᴧ ʟᴏɴɢ ᴛɪᴍᴇ ᴧɢᴏ :("
     elif user.status == "online":
         return "ᴄᴜʀʀᴇɴᴛʟʏ ᴏɴʟɪɴᴇ"
     elif user.status == "offline":
