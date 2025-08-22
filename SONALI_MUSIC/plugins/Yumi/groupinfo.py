@@ -42,7 +42,7 @@ async def get_group_status(_, message: Message):
 async def group_status(client, message):
     chat = message.chat  # Chat where the command was sent
     status_text = (
-        f"**ɢʀᴏᴜᴘ ɪɴғᴏʀᴍᴀᴛɪᴏɴ**\n\n"
+        f"**ɢʀᴏᴜᴘ ɪɴꜰᴏʀᴍᴧᴛɪᴏɴ**\n\n"
         f"**ɢʀᴏᴜᴘ ɪᴅ :-** `{chat.id}`\n"
         f"**ᴛɪᴛʟᴇ :-** **{chat.title}**\n"
         f"**ᴛʏᴘᴇ :-** `{chat.type}`\n"
@@ -50,9 +50,9 @@ async def group_status(client, message):
 
     # Check if the group has a username
     if chat.username:
-        status_text += f"**ᴜsᴇʀɴᴀᴍᴇ :-** @{chat.username}\n"
+        status_text += f"**ᴜsᴇʀɴᴧᴍᴇ :-** @{chat.username}\n"
     else:
-        status_text += "**ᴜsᴇʀɴᴀᴍᴇ :-** None\n"
+        status_text += "**ᴜsᴇʀɴᴧᴍᴇ :-** None\n"
 
     # Send the response
     await message.reply_text(status_text)
