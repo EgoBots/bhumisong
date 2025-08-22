@@ -27,7 +27,7 @@ def get_random_message(love_percentage):
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴧᴅᴅ ᴍᴇ ʙᴧʙʏ", url="https://t.me/AarumiSongBot?startgroup=true"),
+        InlineKeyboardButton(text="⊚ ᴧᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴧᴛ ⊚", url="https://t.me/AarumiSongBot?startgroup=true"),
     ],
 ]
 
@@ -43,7 +43,7 @@ async def love_command(client, message):
         love_message = get_random_message(love_percentage)
 
         response = (
-            f"❖ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟᴏᴠᴇ ᴘᴇʀᴄᴇɴᴛᴀɢᴇ ⏤͟͟͞͞★ \n\n"
+            f"⦿ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟᴏᴠᴇ ᴘᴇʀᴄᴇɴᴛᴧɢᴇ ⏤͟͟͞͞★ \n\n"
             f"❅ {name1} ♥️ + {name2} ♥️ = {love_percentage}%\n\n{love_message}"
         )
         await client.send_message(
@@ -54,7 +54,7 @@ async def love_command(client, message):
     else:
         await client.send_message(
             message.chat.id,
-            "❍ ᴘʟᴇᴧsᴇ ᴇɴᴛᴇʀ ᴛᴡᴏ ɴᴧᴍᴇs ᴀғᴛᴇʀ /love ᴄᴏᴍᴍᴧɴᴅ.",
+            "⦿ ᴘʟᴇᴧsᴇ ᴇɴᴛᴇʀ ᴛᴡᴏ ɴᴧᴍᴇs ᴧꜰᴛᴇʀ /love ᴄᴏᴍᴍᴧɴᴅ.",
             reply_markup=InlineKeyboardMarkup(EVAA),
         )
             
