@@ -43,7 +43,7 @@ async def sticker_image(_, message: Message):
     r = message.reply_to_message
 
     if not r:
-        return await message.reply("✦ ʀᴇᴘʟʏ ᴛᴏ ᴍᴇssᴀɢᴇ")
+        return await message.reply("✦ ʀᴇᴘʟʏ ᴛᴏ ᴍᴇssᴧɢᴇ")
 
     if not r.sticker:
         return await message.reply("✦ ʀᴇᴘʟʏ ᴛᴏ sᴛɪᴄᴋᴇʀ.")
@@ -65,12 +65,12 @@ async def sticker_image(_, message: Message):
 @capture_err
 async def kang(client, message: Message):
     if not message.reply_to_message:
-        return await message.reply_text("✦ ʀᴇᴘʟʏ ᴛᴏ ᴀ sᴛɪᴄᴋᴇʀ/ɪᴍᴀɢᴇ ᴛᴏ ᴋᴀɴɢ ɪᴛ.")
+        return await message.reply_text("✦ ʀᴇᴘʟʏ ᴛᴏ ᴧ sᴛɪᴄᴋᴇʀ/ɪᴍᴧɢᴇ ᴛᴏ ᴋᴧɴɢ ɪᴛ.")
     if not message.from_user:
         return await message.reply_text(
-            "✦ ʏᴏᴜ ᴀʀᴇ ᴀɴᴏɴ ᴀᴅᴍɪɴ, ᴋᴀɴɢ sᴛɪᴄᴋᴇʀs ɪɴ ᴍʏ ᴅᴍ."
+            "✦ ʏᴏᴜ ᴧʀᴇ ᴧɴᴏɴ ᴧᴅᴍɪɴ, ᴋᴧɴɢ sᴛɪᴄᴋᴇʀs ɪɴ ᴍʏ ᴅᴍ."
         )
-    msg = await message.reply_text("✦ ᴋᴀɴɢɪɴɢ sɪᴄᴋᴇʀ...")
+    msg = await message.reply_text("✦ ᴋᴧɴɢɪɴɢ sɪᴄᴋᴇʀ...")
 
     # Find the proper emoji
     args = message.text.split()
@@ -96,7 +96,7 @@ async def kang(client, message: Message):
             )
         elif doc:
             if doc.file_size > 10000000:
-                return await msg.edit("✦ ғɪʟᴇ sɪᴢᴇ ᴛᴏᴏ ʟᴀʀɢᴇ.")
+                return await msg.edit("✦ ғɪʟᴇ sɪᴢᴇ ᴛᴏᴏ ʟᴧʀɢᴇ.")
 
             temp_file_path = await app.download_media(doc)
             image_type = imghdr.what(temp_file_path)
@@ -109,7 +109,7 @@ async def kang(client, message: Message):
                     temp_file_path
                 )
             except OSError as e:
-                await msg.edit_text("✦ sᴏᴍᴇᴛʜɪɴɢ ᴡʀᴏɴɢ ʜᴀᴘᴘᴇɴᴇᴅ.")
+                await msg.edit_text("✦ sᴏᴍᴇᴛʜɪɴɢ ᴡʀᴏɴɢ ʜᴧᴘᴘᴇɴᴇᴅ.")
                 raise Exception(
                     f"✦ sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ ᴡʜɪʟᴇ ʀᴇsɪᴢɪɴɢ ᴛʜᴇ sᴛɪᴄᴋᴇʀ (at {temp_file_path}); {e}"
                 )
@@ -120,9 +120,9 @@ async def kang(client, message: Message):
             if os.path.isfile(temp_file_path):
                 os.remove(temp_file_path)
         else:
-            return await msg.edit("✦ ɴᴏᴘᴇ, ᴄᴀɴ'ᴛ  ᴋᴀɴɢ ᴛʜᴀᴛ.")
+            return await msg.edit("✦ ɴᴏᴘᴇ, ᴄᴧɴ'ᴛ  ᴋᴧɴɢ ᴛʜᴧᴛ.")
     except ShortnameOccupyFailed:
-        await message.reply_text("✦ ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ɴᴀᴍᴇ ᴏʀ ᴜsᴇʀɴᴀᴍᴇ.")
+        await message.reply_text("✦ ᴄʜᴧɴɢᴇ ʏᴏᴜʀ ɴᴧᴍᴇ ᴏʀ ᴜsᴇʀɴᴧᴍᴇ.")
         return
 
     except Exception as e:
@@ -175,15 +175,15 @@ async def kang(client, message: Message):
         )
     except (PeerIdInvalid, UserIsBlocked):
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="⌯ sᴛᴀʀᴛ ɪɴ ᴘᴍ ⌯", url=f"t.me/{BOT_USERNAME}")]]
+            [[InlineKeyboardButton(text="⌯ sᴛᴧʀᴛ ɪɴ ᴘᴍ ⌯", url=f"t.me/{BOT_USERNAME}")]]
         )
         await msg.edit(
-            "✦ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ sᴛᴀʀᴛ ᴀ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ ᴡɪᴛʜ ᴍᴇ.",
+            "✦ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ sᴛᴧʀᴛ ᴧ ᴘʀɪᴠᴧᴛᴇ ᴄʜᴧᴛ ᴡɪᴛʜ ᴍᴇ.",
             reply_markup=keyboard,
         )
     except StickerPngNopng:
         await message.reply_text(
-            "✦ sᴛɪᴄᴋᴇʀs ᴍᴜsᴛ ʙᴇ ᴘɴɢ ғɪʟᴇs ᴛʜᴇ ᴘʀᴏᴠɪᴅᴇᴅ ɪᴍᴀɢᴇ ᴡᴀs ɴᴏᴛ ᴀ ᴘɴɢ."
+            "✦ sᴛɪᴄᴋᴇʀs ᴍᴜsᴛ ʙᴇ ᴘɴɢ ғɪʟᴇs ᴛʜᴇ ᴘʀᴏᴠɪᴅᴇᴅ ɪᴍᴧɢᴇ ᴡᴧs ɴᴏᴛ ᴧ ᴘɴɢ."
         )
     except StickerPngDimensions:
-        await message.reply_text("✦ ᴛʜᴇ sᴛɪᴄᴋᴇʀ ᴘɴɢ ᴅɪᴍᴇɴsɪᴏɴs ᴀʀᴇ ɪɴᴠᴀʟɪᴅ.")
+        await message.reply_text("✦ ᴛʜᴇ sᴛɪᴄᴋᴇʀ ᴘɴɢ ᴅɪᴍᴇɴsɪᴏɴs ᴀʀᴇ ɪɴᴠᴧʟɪᴅ.")
